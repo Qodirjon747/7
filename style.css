@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #1F242D;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    padding: 22px 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #00EEFF;
+}
+.hero{
+    padding-bottom: 141px;
+    padding-top: 103px;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+}
+.hero h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+    color: white;
+}
+.hero h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+}
+.hero h2 span{
+    color: #00EEFF;
+}
+.hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    width: 636px;
+}
+.h-i{
+    color: #00EEFF;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 30px;
+    margin-top: 31px;
+}
+#a{
+    border: 2px solid #00EEFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+.btn{
+    padding: 11px 28px;
+    background: #00EEFF;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border: none;
+    border-radius: 50px;
+}
+.card{
+    width: 380px;
+    height: 369px;
+    background: #323946;
+    border: 2px solid #1F242D;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 26px;
+}
+.card h2{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    color: white;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    width: 319px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+.card .btn{
+    margin-top: 40px;
+}
+.Services h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+}
+.Services h1 span{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: #00EEFF;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+.Services{
+    padding-bottom: 237px;
+}
+.project h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+}
+.project h1 span{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: #00EEFF;
+}
+.card2{
+    box-shadow: 0px 0px 10px 0px #1F242D;
+    width: 376px;
+    height: 251px;
+    margin-top: 25px;
+}
+.project{
+    background: #323946;
+    padding: 100px 0;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact{
+    padding: 100px 0;
+    text-align: center;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center; 
+    color: white;
+}
+.contact h1 span{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center; 
+    color: #00EEFF;
+}
+.contact input{
+    width: 343px;
+    height: 55px;
+    background: #323946;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.contact textarea{
+    width: 700px;
+    height: 280px;
+    background: #323946;
+    border-radius: 8px;
+    border: none;
+    margin-top: 14px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+footer{
+    background: #323946;
+    padding: 20px 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+.btn1{
+    border: none;
+    background-color: inherit;
+    font-size: 30px;
+    display: none;
+    color: white;
+}
+@media(max-width:1024px){
+    .card{
+        width: 280px;
+        height: 337px;
+    }
+    .card2{
+        width: 255px;
+        height: 177px;
+    }
+    .card p{
+        width: 225px;
+        margin-top: 0;
+    }
+}
+@media(max-width:390px){
+    nav ul li a{
+        display: none;
+    }
+    .btn1{
+        display: block;
+    }
+    .ota{
+        flex-direction: column;
+    }
+    .hero .container{
+        display: block;
+    }
+    .card2{
+        width: 366px;
+        height: 244px;
+    }
+}
